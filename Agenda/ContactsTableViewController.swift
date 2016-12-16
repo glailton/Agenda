@@ -17,13 +17,10 @@ class ContactsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let contact1 = Contact(name:"Glailton", phone:"986561900")
-        let contact2 = Contact(name:"Deisianne", phone:"999969149")
+       // let contact1 = Contact(name:"Glailton", phone:"986561900")
         
-        contacts += [contact1,contact2]
+       // contacts += [contact1]
         
-        print(contacts)
-
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
